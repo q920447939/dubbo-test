@@ -1,0 +1,5 @@
+javax.validation.ConstraintViolationException
+org.hibernate.validator.internal.engine.ConstraintViolationImpl
+org.hibernate.validator.internal.metadata.descriptor.ConstraintDescriptorImpl
+sun.reflect.annotation.AnnotationInvocationHandler
+com.example.dubboapi.UserQuery

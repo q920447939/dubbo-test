@@ -1,0 +1,4 @@
+spring:
+  application:
+    #配置应用的名称，用于获取配置
+    name: dubbo-consumer
