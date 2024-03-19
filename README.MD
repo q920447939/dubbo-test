@@ -14,7 +14,7 @@ The following lists the required configurations
 
 ```yaml
 host:
-    hostname: 172.18.13.33
+    hostname: 127.0.0.1
     nacos:
         hostname: ${host.hostname}
         port: 8848     
