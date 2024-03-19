@@ -62,9 +62,9 @@ project:
 
 ### start params(at IDEA is VM options)：
 
-​    dubbo-consumer: `-Dspring.profiles.active=dev -Dlog4j-env=dev -Dproject.name=dubbo-consumer-dubbo -Dcom.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.tryReflectionSetAccessible=true -Dio.netty.tryReflectionSetAccessible=true --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED`
+​    dubbo-consumer: `-Dspring.profiles.active=dev -Dproject.name=dubbo-consumer-dubbo -Dcom.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.tryReflectionSetAccessible=true -Dio.netty.tryReflectionSetAccessible=true --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED`
 
-   dubbo-provider: `-Dspring.profiles.active=dev -Dlog4j-env=dev -Dproject.name=dubbo-provider-dubbo -Dcom.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.tryReflectionSetAccessible=true -Dio.netty.tryReflectionSetAccessible=true --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED`
+   dubbo-provider: `-Dspring.profiles.active=dev  -Dproject.name=dubbo-provider-dubbo -Dcom.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.tryReflectionSetAccessible=true -Dio.netty.tryReflectionSetAccessible=true --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED`
 
 
 
