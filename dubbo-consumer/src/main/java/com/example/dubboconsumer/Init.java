@@ -24,6 +24,7 @@ public class Init implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         UserQuery userQuery = new UserQuery();
         userQuery.setName("王");
+        userQuery.setAge(1);
         UserResponse userResponse = api.queryUser(userQuery);
         System.out.println(userResponse);
     }
