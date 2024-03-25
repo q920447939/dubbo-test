@@ -11,6 +11,7 @@ import java.util.concurrent.CountDownLatch;
 public class DubboConsumerApplication {
 
     public static void main(String[] args) throws InterruptedException {
+        System.setProperty("dubbo.application.serialize-check-status","DISABLE");
         SpringApplication.run(DubboConsumerApplication.class, args);
         new CountDownLatch(1).await();
     }

@@ -5,6 +5,7 @@
  */
 package com.example.dubboconsumer;
 
+import com.alibaba.fastjson2.JSONReader;
 import com.example.dubboapi.Api;
 import com.example.dubboapi.UserQuery;
 import com.example.dubboapi.UserResponse;
@@ -21,7 +22,9 @@ public class Init implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        UserResponse userResponse = api.queryUser(new UserQuery());
+        UserQuery userQuery = new UserQuery();
+        userQuery.setName("王");
+        UserResponse userResponse = api.queryUser(userQuery);
         System.out.println(userResponse);
     }
 }
